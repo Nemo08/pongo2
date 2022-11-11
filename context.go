@@ -6,7 +6,7 @@ import (
 	"regexp"
 )
 
-var reIdentifiers = regexp.MustCompile("^[a-zA-Z0-9_]+$")
+var reIdentifiers = regexp.MustCompile("^[a-zA-Zа-яА-Я0-9_]+$")
 
 var autoescape = true
 
